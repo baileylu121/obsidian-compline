@@ -710,27 +710,6 @@ button,
 	background-color: var(--text-selection);
 }
 
-/* ============================================
- * DARK THEME - Direct background overrides
- * ============================================ */
-body.theme-dark,
-.theme-dark .app-container,
-.theme-dark .horizontal-main-container,
-.theme-dark .workspace,
-.theme-dark .workspace-split,
-.theme-dark .workspace-leaf,
-.theme-dark .workspace-leaf-content,
-.theme-dark .view-content,
-.theme-dark .markdown-source-view,
-.theme-dark .markdown-reading-view,
-.theme-dark .markdown-preview-view,
-.theme-dark .cm-s-obsidian,
-.theme-dark .cm-scroller,
-.theme-dark .cm-editor,
-.theme-dark .cm-content {
-	background-color: #1a1d21;
-}
-
 /* Scrollbar styling */
 ::-webkit-scrollbar {
 	width: 8px;
