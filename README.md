@@ -53,8 +53,8 @@ If you manage your obsidian config via Nix you may do the equivalent of:
 
 | Color | Hex | Usage |
 |-------|-----|-------|
-| Background | `#1a1d21` | Primary background |
-| Background Alt | `#22262b` | Secondary background |
+| Background | `#1a1d21` | Primary |
+| Background Alt | `#22262b` | Secondary |
 | Foreground | `#f0efeb` | Primary text |
 | Foreground Alt | `#ccc4b4` | Secondary text |
 | Blue | `#b4bcc4` | Links, accents |
@@ -68,8 +68,8 @@ If you manage your obsidian config via Nix you may do the equivalent of:
 
 | Color | Hex | Usage |
 |-------|-----|-------|
-| Background | `#f0efeb` | Primary background |
-| Background Alt | `#e0dcd4` | Secondary background |
+| Background | `#f0efeb` | Primary |
+| Background Alt | `#e0dcd4` | Secondary |
 | Foreground | `#1a1d21` | Primary text |
 | Foreground Alt | `#4a4d51` | Secondary text |
 | Blue | `#5a6b7a` | Links, accents |
