@@ -8,6 +8,7 @@
   nixfmt,
   statix,
   prettier,
+  yamlfmt,
 }:
 let
   statix-fix = writeShellApplication {
@@ -55,6 +56,16 @@ let
         includes = [
           "*.css"
           "*.json"
+        ];
+        options = [ ];
+      };
+
+      yamlfmt = {
+        command = lib.getExe yamlfmt;
+        excludes = [ ];
+        includes = [
+          "*.yaml"
+          "*.yml"
         ];
         options = [ ];
       };
